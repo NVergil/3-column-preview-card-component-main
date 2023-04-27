@@ -79,7 +79,7 @@ button {
   font-family: var(--font-lexend);
   font-size: var(--size);
   background: var(--very-light-gray);
-  margin-top: 0.75rem;
+  margin-top: 4.5rem;
   border-radius: 2rem;
   cursor: pointer;
 }
@@ -115,12 +115,14 @@ button:active {
 }
 
 @media screen and (max-width: 980px) {
+  button {
+    margin-top: 2.5rem;
+  }
   .card._3 {
     border-radius: 0;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
   }
-
   .card._2 {
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -128,6 +130,9 @@ button:active {
 }
 
 @media screen and (max-width: 654px) {
+  button {
+    margin-top: 0.75rem;
+  }
   .card._1 {
     border-top-right-radius: 0.5rem;
     border-bottom-left-radius: 0;
